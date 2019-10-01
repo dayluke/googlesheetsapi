@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.text-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(0,0,0,1));
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  color: orange;
+}
+
+.name, .time {
+  margin: 8vh 3vw;
+}
+
+.image {
+  width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
+}
+
+.method-container, .ingred-container {
+  width: auto;
+  height: auto;
+  padding: 2vh;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  font-size: 1.5rem;
+  color: white;
+  background-color: rgba(130,170,200,0.6);
+  border-radius: 7%;
+}
+
+p#recipeMethod, p#recipeIngred {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.ingred-container {
+  bottom: 50px;
+  left: calc(100% - 60px - 25vw);
+}
+
+.page-button {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  text-decoration: none;
+  border: ;
+  border-radius: 50%;
+  line-height: 100px;
+  font-size: 3rem;
+  font-family: 'Lato';
+  background-color: rgba(200,200,200,0.4);
+  color: black;
+}
