@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Google Sheets API</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="A website utilising google sheets api for a recipe book">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Luke Day">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  
+  <body>
+  
+    <div class="container">
+      <img src="" class="image" id="recipeImage">
+      <div class="text-container">
+        <div class="name" id="recipeName"></div>
+        <div class="time" id="recipeTime"></div>
+      </div>
+      <div class="method-container">
+        Method:<p id="recipeMethod"></p>
+      </div>
+      <div class="ingred-container">
+        Ingredients:<p id="recipeIngred"></p>
+      </div>
+    </div>
+    <button class="page-button" onclick="updateCounter(-1)"><</button>
+    <button class="page-button" style="left: calc(100% - 50px - 100px)" onclick="updateCounter(1)">></button>
+  
+  </body>
+</html>
